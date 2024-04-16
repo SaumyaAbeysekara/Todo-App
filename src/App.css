@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.App {
+  text-align: top;
+}
+
+.header {
+  background-color:rgb(240, 150, 24);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  color: white;
+  font-family:"Shadows+Into+Light",cursive ;
+  padding: 30px;
+}
+.task-container{
+  width: 70vh;
+  height: 90vh;
+  background: linear-gradient(to right, pink, rgb(224, 110, 194)), #9A7B4F;
+  padding: 20px;
+}
+.sub-head{
+  font-family:"Shadows+Into+Light",cursive ;
+  font-size: 25px;
+  border: 5px;
+  
+
+}
+
+.inputTodos{
+  height:90Vh;
+  padding-top: 20px;
+}
+
+
+.container{
+  display: flex;
+}
+.submitted-task{
+  background-color: rgb(103, 101, 227);
+  border-radius: 5px;
+  
+}
+.submitted-task.done {
+  text-decoration: line-through; 
+}
+.submittedValues{
+  width: 100%;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.submit{
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  background-color: blueviolet;
+  margin: 50px;
+  position: fixed;
+  bottom: 20px;
+}
+.title{
+  width: 80%;
+  height:  30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+.desc{
+  width: 80%;
+  height: 180px;
+  border-radius: 5px;
+  margin-top: 30px;
+ 
+
+}
+.myToDo{
+  font-family: "Shadows+Into+Light",cursive ;
+  font-size: 30px;
+}
+
+.submittedValues{
+  background-image: url('images/back.jpg')
+
+}
+.icon-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 20px;
+
+}
+.icon{
+  margin-right: 30px;
+  background-color: rgb(137, 157, 227);
+  border-radius: 50px;padding: 5px;
+}
